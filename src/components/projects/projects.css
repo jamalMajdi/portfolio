@@ -1,0 +1,85 @@
+/* Portfolio.css */
+.portfolio-section {
+  padding: 4rem 2rem;
+  background: #0d0d2b;
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio-heading {
+  font-size: 2rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-subheading {
+  font-size: 2.5rem;
+  color: #3f80ff;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-card {
+  background: #1b1b3a;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 2px solid #3f80ff;
+  color: #3f80ff;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #3f80ff;
+  color: white;
+}
+
+.btn-filled {
+  background: #3f80ff;
+  color: white;
+}
+
+.btn-filled:hover {
+  background: #2e66cc;
+}
