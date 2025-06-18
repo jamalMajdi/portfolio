@@ -1,5 +1,4 @@
 import React from "react";
-import Me from "../../assets/me.png";
 import Jamal from '../../assets/jamal-removebg-preview.png'
 import CV from "../../assets/cv.pdf";
 import "./home.css";
@@ -35,14 +34,11 @@ const Home = () => {
             </div>
 
             <div className="social-icon">
-              <a href="">
+              <a href="https://www.linkedin.com/in/jamal-majdy" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="">
+              <a href="https://github.com/jamalMajdi" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
-              </a>
-              <a href="">
-                <FaDribbble />
               </a>
             </div>
           </div>

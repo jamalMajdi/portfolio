@@ -16,10 +16,10 @@ const Footer = () => {
       </ul>
       <div className="footer-socials">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://www.instagram.com/jamal__majdy?igsh=bDVxZXd3NjBrZHQ4" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
       </div>
-      <p className="footer-copy">© Bzog All rights reserved</p>
+      <p className="footer-copy">© 2025 Bzog All rights reserved</p>
     </footer>
   );
 };

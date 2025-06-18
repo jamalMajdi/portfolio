@@ -9,7 +9,7 @@ const contactMethods = [
     id: 1,
     icon: <FaEnvelope />,
     method: "Email",
-    detail: "Redactech@gmail.com",
+    detail: "jamalmajdy01@gmail.com",
     linkText: "Send Message",
     link: "mailto:Redactech@gmail.com",
   },
@@ -17,9 +17,9 @@ const contactMethods = [
     id: 2,
     icon: <FaFacebookMessenger />,
     method: "Messenger",
-    detail: "RedaTech",
+    detail: " More details will be added soon",
     linkText: "Send Message",
-    link: "https://m.me/RedaTech",
+    link: "https://messanger",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const contactMethods = [
     method: "WhatsApp",
     detail: "+967733508279",
     linkText: "Send Message",
-    link: "https://wa.me/733508270",
+    link: "https://wa.me/733508279",
   },
 ];
 
@@ -69,9 +69,9 @@ const Contact = () => {
       );
   }
   return (
-    <section className="contact-section">
-      <h2 className="contact-heading">Get in Touch</h2>
-      <p className="contact-subheading">Contact Me</p>
+    <section className="contact-section" id="contact">
+      <h3 className="small-title">Get in Touch</h3>
+      <h2 className="big-title">Contact Me</h2>
       <div className="contact-container">
         <div className="contact-options">
           {contactMethods.map(
@@ -112,7 +112,7 @@ const Contact = () => {
             rows="6"
             required
           ></textarea>
-          <button type="submit" disabled={loading}>
+          <button className="submit"  type="submit" disabled={loading}>
             {loading ? "جاري الإرسال..." : "Send Message"}
           </button>
         </form>

@@ -17,7 +17,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container "id="Skills">
       <h3 className="skills-title">What Skills I Have</h3>
       <h2 className="skills-subtitle">My Experience</h2>
       <div className="skills-grid">

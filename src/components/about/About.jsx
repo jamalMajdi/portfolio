@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 
-import ImageMe from "../../assets/me-about.jpg";
 import JamalAbout from '../../assets/jamal-about.png'
 
 import { FaAward } from "react-icons/fa";

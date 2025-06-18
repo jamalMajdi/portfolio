@@ -6,17 +6,7 @@
   color: white;
 }
 
-.services-section h3 {
-  color: #94a3b8;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
 
-.services-section h2 {
-  color: #38bdf8;
-  margin-bottom: 40px;
-  font-size: 32px;
-}
 
 .services-grid {
   display: flex;

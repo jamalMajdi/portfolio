@@ -8,27 +8,27 @@ const services = [
     icon: <FaTools />,
     title: "Web Design",
     description:
-      "تصميم عصري وسهل الاستخدام يركّز على تجربة المستخدم ووضوح المحتوى.",
+      "Modern and user-focused designs that combine aesthetics with usability.",
   },
   {
     icon: <FaRocket />,
     title: "Fast Performance",
     description:
-      "سرعة تحميل عالية وتحسين كامل للأداء لضمان أفضل تجربة.",
+      "Built and optimized websites for high performance and fast loading times to deliver seamless user experiences.",
   },
   {
     icon: <FaCode />,
-    title: "Clean Code",
+    title: "Responsive Design",
     description:
-      "كتابة كود منظم وسهل الصيانة، يتبع أفضل المعايير.",
+      "Responsive layouts that adapt perfectly to all devices, from desktops to smartphones.",
   },
 ];
 
 export default function Services() {
   return (
     <section className="services-section">
-      <h3>What I Offer</h3>
-      <h2>Services</h2>
+      <h3 className="small-title">What I Offer</h3>
+      <h2 className="big-title">Services</h2>
       <div className="services-grid">
         {services.map((service, i) => (
           <div className="service-card" data-aos="fade-up" key={i}>

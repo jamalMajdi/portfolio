@@ -2,13 +2,6 @@
 import React from "react";
 import "./projects.css";
 
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
-
 
 import apiWeather from '../../assets/api-weather.png'
 import latestNews from '../../assets/latest news.png'
@@ -41,9 +34,9 @@ const portfolioItems = [
 
 const Projects = () => {
   return (
-    <section className="portfolio-section">
-      <h2 className="portfolio-heading">My Recent Work</h2>
-      <p className="portfolio-subheading">Portfolio</p>
+    <section className="portfolio-section" id="Projects">
+      <h3 className="small-title">My Recent Work</h3>
+      <h2 className=" big-title">Projects</h2>
       <div className="portfolio-grid">
         {portfolioItems.map(({ id, title, image, github, demo }) => (
           <div className="portfolio-card" data-aos="fade-up" key={id}>
